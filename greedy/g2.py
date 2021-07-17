@@ -1,3 +1,4 @@
+#거스름돈문제
 
 money = int(input()) #5000
 cnt=0
