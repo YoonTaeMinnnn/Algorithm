@@ -1,3 +1,4 @@
+#큰수법칙
 n,m,k=map(int,input().split())
 arr = list(map(int,input().split()))
 
