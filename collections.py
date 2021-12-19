@@ -1,5 +1,9 @@
 #collections 
 #큐 구현
+
+import time 
+
+start_time = time.time()
 from collections import deque, Counter
 
 data = deque([2,3,4])
@@ -9,12 +13,9 @@ data.popleft()
 print(data)
 print(list(data))
 
-#스택 구현
-data = deque([1,2,3,4,5])
-data.append(6)
-data.pop()
-print(data)
-print(list(data))
+end_time = time.time()
+print('time :',end_time - start_time)
+
 
 
 #Counter
