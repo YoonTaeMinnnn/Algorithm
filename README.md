@@ -1,2 +1,2 @@
 # algorism
-(r) 다시
+greedy dfs/bfs 위주
