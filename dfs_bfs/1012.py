@@ -1,4 +1,4 @@
-def dfs(x,y):
+def bfs(x,y):
   if x<=-1 or x>=m or y<=-1 or y>=n:
     return 
   if graph[x][y]==1:
@@ -14,12 +14,12 @@ test = int(input())
 
 for i in range(test):
   cnt = 0
-  n, m, k = map(int,input().split())
+  m, n, k = map(int,input().split())
   graph = [[0]*m for _ in range(n)]
   result = 0
   for j in range(k):
     x, y = map(int, input().split())
-    graph[x][y] = 1
+    graph[y][x] = 1
 
   for i in range(n):
     for j in range(m):
