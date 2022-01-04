@@ -1,5 +1,6 @@
 # algorism
 greedy dfs/bfs 위주  
-import sys
-sys.setrecursionlimit(10000)
+import sys  
+sys.setrecursionlimit(10000)  
+
 
