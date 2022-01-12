@@ -1,4 +1,6 @@
-# algorism
+# algorism  
+  
+  
 greedy dfs/bfs 위주  
 import sys  
 sys.setrecursionlimit(10000)  
