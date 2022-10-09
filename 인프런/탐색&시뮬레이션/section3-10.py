@@ -18,8 +18,8 @@ for i in range(9):
 for i in range(0,9,3):
   for j in range(0,9,3):
     a = l[:i+3][:j+3]
+    k = [0] * 10
     for z in range(3):
-      k = [0] * 10
       for w in range(3):
         b = a[z][w]
         if k[b] == 1:
