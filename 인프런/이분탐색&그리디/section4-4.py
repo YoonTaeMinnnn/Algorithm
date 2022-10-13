@@ -5,7 +5,7 @@ def hourse(m):
         if l[i] - a >= m:
             a = l[i]
             cnt += 1
-    if cnt < m:
+    if cnt < c:
         return False
     return True
 
