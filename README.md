@@ -1,8 +1,6 @@
 # algorism  
   
-  
-greedy dfs/bfs 위주  
-
+ 
 import sys  
 input = sys.stdin.readline  
 a = input()
