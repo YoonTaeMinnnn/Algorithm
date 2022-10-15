@@ -1,4 +1,4 @@
-# algorism  
+# algorithm 
   
  
 import sys  
