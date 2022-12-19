@@ -7,4 +7,8 @@ for i in range(1,T+1):
     l = l[s-1:e]
     l.sort()
     print('#%d' %i + ' %d' %(l[k-1]))
+  
 
+
+
+  
