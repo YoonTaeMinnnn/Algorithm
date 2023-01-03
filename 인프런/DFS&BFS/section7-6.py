@@ -1,7 +1,9 @@
 def DFS(L, P):
+  global cnt
   if L == n:
+    cnt += 1
     for j in range(P):
-      print(res[j], end=" ")
+      print(chr(res[j]+64), end="")
     print()
   else:
     for i in range(1,27):
@@ -16,4 +18,6 @@ code = list(map(int, input()))
 n = len(code)
 code.append(-1) #out of range 방지
 res = [0] * (n+3)
+cnt = 0
 DFS(0,0)
+print(cnt)
