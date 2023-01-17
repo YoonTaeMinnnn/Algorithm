@@ -1,7 +1,7 @@
 def DFS(x, y):
   global cmt
-  l[x][y] = 0
   cmt += 1
+  l[x][y] = 0
   for i in range(4):
     nx = x + dx[i]
     ny = y + dy[i]
@@ -16,7 +16,6 @@ dy = [0,0,1,-1]
 
 n = int(input())
 l = [list(map(int, input())) for _ in range(n)]
-cnt = 0
 cmt = 0
 result = []
 
@@ -25,10 +24,9 @@ for i in range(n):
     if l[i][j] == 1:
       DFS(i, j)
       result.append(cmt)
-      cnt += 1
       cmt = 0
 
-print(cnt)
+print(len(result))
 result.sort()
 for i in result:
   print(i)
