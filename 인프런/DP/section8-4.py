@@ -7,7 +7,7 @@ res = 0
 
 for i in range(1, n):
   max = 0
-  for j in range(i-1, 0, -1):
+  for j in range(i-1, -1, -1):
     if l[j] < l[i] and dy[j] > max:
       max = dy[j]
   dy[i] = max + 1
