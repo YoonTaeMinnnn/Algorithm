@@ -1,9 +1,9 @@
 from collections import deque
 
 l = [list(map(int, input().split())) for _ in range(7)]
-ch = [[0]*7 for _ in range(7)]
+
 result = [[0]*7 for _ in range(7)]
-ch[0][0] = 1
+
 queue = deque()
 queue.append((0,0))
 
