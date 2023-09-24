@@ -1,4 +1,7 @@
 from heapq import heappush, heappop, heapify
+import sys
+
+input = sys.stdin.readline
 
 case = int(input())
 left = []
